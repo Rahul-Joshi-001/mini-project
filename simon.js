@@ -43,7 +43,7 @@ function levels(){
     let random_color = btns[no];
     let random_button = document.querySelector(`.${random_color}`);
     game.push(random_color);
-
+    // console.log(random_button);
     gameflash(random_button);
 }
     function check(idx){
